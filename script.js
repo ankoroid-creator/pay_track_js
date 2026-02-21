@@ -29,7 +29,7 @@ const expenseTracker = {
     printAllExpenses() {
         console.log("\n--- Список расходов ---");
         if (this.expenses.length === 0) return console.log("Пусто");
-        this.expenses.forEach(e => console.log(`ID:${e.id} | ${e.title} | ${e.amount}₽ | ${e.category}`));
+        this.expenses.forEach(e => console.log(`ID:${e.id} | ${e.title} | ${e.amount} | ${e.category}`));
         console.log("-----------------------\n");
     },
 
